@@ -1,0 +1,6 @@
+<webcam [width]="width" [trigger]="trigger" (imageCapture)="snapshot($event)">
+</webcam>
+<br />
+<button mat-raised-button color="primary" type="button" (click)="takePicture()">
+  Snap
+</button>
